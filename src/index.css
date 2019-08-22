@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+strong {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 25px;
+}
+
+label {
+  cursor: pointer;
+}
+
+label span {
+  display: inline-block;
+  padding: 0 0 0 10px;
+}
